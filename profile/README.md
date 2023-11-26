@@ -13,9 +13,20 @@ This is a guide about what I've learned creating a startup. Mostly the technical
   - Follow Google's onboarding instructions to eventually setup the domain to receieve email. You will likely need to update TXT records to verify you own the domain, and MX records to route emails appropriately.
 - [ ] Login to your email and make sure it works.
 
-_Note: Make sure the account used with the domain registrar and Google workspaces is properly secure. They are the master keys to almost everything we will set up._
+# Account Security
 
-# Next Steps
+- [ ] Get a password manager like [Bitwarden](https://bitwarden.com/), or whichever you prefer.
+- [ ] Make sure the account used with the domain registrar and Google workspaces is properly secure. They are the master keys to almost everything.
 
-- Setup azure & google workspace.
-- Setup github org.
+# Azure
+
+This section and others will be setup to use Azure infrastructure. AWS and Google Cloud should have simmilar offerings.
+
+- [ ] Create a [Microsoft account](https://signup.live.com/signup) with your new email.
+- [ ] Login to Azure portal and setup your primary subscription with an appropriate name and spend limits.
+- [ ] Login to Entra and update your [default domain](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/DomainsList.ReactView).
+  - (Verify your custom domain with a TXT record, and then update it to primary. Sometimes updating to primary fails, but if you refresh it might fix it.)
+
+# Monorepo
+
+- [ ] Setup github org.
