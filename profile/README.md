@@ -1,5 +1,14 @@
 # Startup Forge
 
+Welcome to Startup Forge. This is an opinionated version of the information I wish I was told when building a startup. Knowing this advice would have saved me months of work, so I’d like to share it with you.
+
+This resource is built for people with a technical background. In the beginning there is some non technical work, but I’ll mostly focus on building a good production ready tech stack. I won’t overly prioritize free software. When a paid service can save time at a reasonable price I’ll recommend it.
+
+Continue Reading: [https://docs.startupforge.dev/ ](https://docs.startupforge.dev/)
+
+<!--
+# Old docs:
+
 This is a guide about what I've learned creating a startup. Mostly the technical bits. Hopefully you find it helpful!
 
 # Setup Domain & Email
@@ -30,3 +39,4 @@ This section and others will be setup to use Azure infrastructure. AWS and Googl
 # Monorepo
 
 - [ ] Setup github org.
+-->
